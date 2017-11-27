@@ -1,5 +1,5 @@
 #bodyPrincipal{
-	background-image: url("doom.jpg");
+	background-image: url("images/body/doom.jpg");
 	background-size: cover;
 	position: relative;
 }
@@ -10,7 +10,7 @@
 
 #principalNav{
 	background-color: #3498db;
-	background-image: url("ghost.png");
+	background-image: url("images/body/ghost.png");
 	background-size: cover;
 	font-family: "Tippa";
 	font-size: 20px;
@@ -67,7 +67,7 @@
 }
 
 #intro{
-	background-image: url("identificacion.jpg");
+	background-image: url("images/body/identificacion.jpg");
 	background-size: cover;
 	width: 100%;
 	height: 700px;
@@ -90,7 +90,7 @@
 }
 
 #sabana{
-	background-image: url("frankenstein.jpg");
+	background-image: url("images/body/frankenstein.jpg");
 	background-size: cover;
 	background-color: black;
 	width: 40%;
@@ -143,7 +143,7 @@
 }
 
 #entrevistaSebaRita{
-	background-image: url("ghost_papa.png");
+	background-image: url("images/interviews/ghost_papa.png");
 	background-size: cover;
 }
 
@@ -157,7 +157,7 @@
 }
 
 #fondoEntrevistaSantiFabi{
-	background-image: url("mm2.png");
+	background-image: url("images/interviews/mm2.png");
 	background-size: cover;
 }
 
