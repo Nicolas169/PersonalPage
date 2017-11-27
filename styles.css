@@ -16,6 +16,16 @@
 	font-size: 20px;
 	font-weight: bold;
 	height: 120px;
+	-webkit-transition: height .5s, line-height .5s;
+    -moz-transition: height .5s, line-height .5s;
+	-ms-transition: height .5s, line-height .5s;
+	-o-transition: height .5s, line-height .5s;
+	transition: height .5s, line-height .5s;
+}
+
+.scrolled-nav {
+  height: 65px !important;
+  line-height: 60px !important;
 }
 
 #buttonToTop{
@@ -195,6 +205,12 @@ hr{
 	height: 5px;
 	background-color: white;
 	width: 75%;
+}
+
+#abstract{
+	text-align: justify;
+	margin-right: 100px;
+	margin-left: 100px;
 }
 
 /*ANIMACIONES*/

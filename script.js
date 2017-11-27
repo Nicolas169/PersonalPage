@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	//To show my name with some animation
 	$("#myName").show(1000);
-	
+
 	//Function to make smooth scroll
 	$('a[href*="#"]')
 	// Remove links that don't actually link to anything
@@ -34,23 +34,25 @@ $(document).ready(function(){
 				}
 		}
 	});
-	
-	//Function to scroll top, when it´s click on the button "buttonToTop"
+
+	//Function to scroll top, when it does click on the button "buttonToTop"
 	$("#buttonToTop").click(function topFunction(){
 		$(window).scrollTop(0);
 	});
 	
 	//Scrooll event, call function "makeDisappear"
 	window.onscroll = function() {makeDisappear()};
-	
+
 	//Function to make principalNav and buttonToTop disappear
 	function makeDisappear(){
 		if(document.body.scrollTop > 1200 || document.documentElement.scrollTop > 1200){
-			$("#buttonToTop").css("display", "block");
-			$("#principalNav").hide(1000);
+			$("#buttonToTop").fadeIn();
+			//This line add a class called "scrolled-nav"
+			$('#principalNav').addClass('scrolled-nav');
 		}else{
-			$("#buttonToTop").css("display", "none");
-			$("#principalNav").show(1000);
+			$("#buttonToTop").fadeOut();
+			//This line remove a class called "scrolled-nav"
+			$('#principalNav').removeClass('scrolled-nav');
 		}
-	}	
+	}
 });
