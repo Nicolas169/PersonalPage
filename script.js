@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	//To show my name with some animation
-	$("#myName").show(1000);
+	$("#myName").fadeIn(1000);
+	$("#sabana").fadeIn(1000);
 
 	//Function to make smooth scroll
 	$('a[href*="#"]')
@@ -39,7 +40,7 @@ $(document).ready(function(){
 	$("#buttonToTop").click(function topFunction(){
 		$(window).scrollTop(0);
 	});
-	
+
 	//Scrooll event, call function "makeDisappear"
 	window.onscroll = function() {makeDisappear()};
 
