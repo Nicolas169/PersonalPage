@@ -1,3 +1,7 @@
+body{
+	position: relative;
+}
+
 #bodyPrincipal{
 	background-image: url("images/body/doom.jpg");
 	background-size: cover;
@@ -6,27 +10,6 @@
 
 #body_fondo{
 	background-color: black;
-}
-
-#principalNav{
-	background-color: #3498db;
-	background-image: url("images/body/ghost.png");
-	background-size: cover;
-	font-family: "Tippa";
-	font-size: 20px;
-	font-weight: bold;
-	height: 120px;
-	-webkit-transition: height .5s, line-height .5s;
-    -moz-transition: height .5s, line-height .5s;
-	-ms-transition: height .5s, line-height .5s;
-	-o-transition: height .5s, line-height .5s;
-	transition: height .5s, line-height .5s;
-	border-radius: 10px;
-}
-
-.scrolled-nav {
-	height: 65px !important;
-	line-height: 60px !important;
 }
 
 #buttonToTop{
@@ -48,23 +31,6 @@
 #buttonToTop:hover{
 	background-color: white;
 	opacity: 1;
-}
-
-.principalNavv{
-	font-size: 100%;
-	color: black;
-	margin-right: 2%;
-	margin-bottom: 30px;
-}
-
-.principalNavv:hover{
-	animation-name: nav;
-	color: #0B610B;
-    animation-duration: 1s;
-	-webkit-transition-duration: 0.3s;
-	-moz-transition-duration: 0.3s;
-	-ms-transition-duration: 0.3s;
-	-o-transition-duration: 0.3s;
 }
 
 #intro{
@@ -183,8 +149,6 @@
 	font-family: Unispace;
 	color: white;
 	text-align: justify;
-	margin-right: 100px;
-	margin-left: 100px;
 }
 
 #busquedaLaboral{
@@ -192,8 +156,6 @@
 	font-family: Unispace;
 	color: white;
 	text-align: justify;
-	margin-right: 100px;
-	margin-left: 100px;
 }
 
 #anunciosCarousel{
@@ -232,46 +194,6 @@ hr{
 }
 
 /*ANIMACIONES*/
-@-webkit-keyframes nav{
-    from {color: red;}
-    to {color: #0B610B;}
-}
-
-@-moz-keyframes nav{
-    from {color: red;}
-    to {color: #0B610B;}
-}
-
-@-ms-keyframes nav{
-    from {color: red;}
-    to {color: #0B610B;}
-}
-
-@-o-keyframes nav{
-    from {color: red;}
-    to {color: #0B610B;}
-}
-
-@-webkit-keyframes color_change{
-	from {color: blue;}
-	to {color: yellow;}
-}
-
-@-moz-keyframes color_change{
-	from {color: blue;}
-	to {color: black;}
-}
-
-@-ms-keyframes color_change{
-	from {color: blue;}
-	to {color: yellow;}
-}
-
-@-o-keyframes color_change{
-	from {color: blue;}
-	to {color: yellow;}
-}
-
 @font-face{
 	font-family: Unispace;
 	src: url("unispace rg.ttf");

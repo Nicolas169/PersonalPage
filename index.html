@@ -11,33 +11,37 @@
 	<button id="buttonToTop" title="Volver al inicio">Volver</button>
 
 	<body id="bodyPrincipal" data-spy="scroll" data-target="#principalNav">
-		<div class="container-fluid">
 			<header>
-			<div class="col-sm-12 hidden-xs-down">
-				<nav class="navbar fixed-top justify-content-center col-xs-12" id="principalNav" role="tablist">
-					<a class="principalNavv" href="#competenciaHabilidades" title="Competencias y habilidades">Competencias y habilidades</a>
-					<a class="principalNavv" href="#vocacion" title="Vocación">Vocación</a>
-					<a class="principalNavv" href="#busquedaLaboral" title="Búsqueda laboral">Búsqueda laboral</a>
-					<a class="principalNavv" href="interviews.html" target="_blank" title="Entrevistas">Entrevistas</a>
-					<a class="principalNavv" href="" target="_blank" title="Contacto">Contacto</a>
+				<nav id="principalNav" class="navbar justify-content-center fixed-top navbar-toggleable-md navbar-inverse bg-inverse">
+					<ul class="nav nav-pills">
+						<li class="nav-item">
+							<a class="nav-item nav-link" href="#competenciaHabilidades" title="Competencias y habilidades">Competencias y habilidades</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#vocacion" title="Vocación">Vocación</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-item nav-link" href="#busquedaLaboral" title="Búsqueda laboral">Búsqueda laboral</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-item nav-link" href="interviews.html" target="_blank" title="Entrevistas">Entrevistas</a>
+						</li>
+					</ul>
 				</nav>
-			</div>
 			</header>
-			
-			<div class="row">
-				<div class="col-sm-12 hidden-xs-down">
-					<div id="intro">
-						<div id="sabana">
-							<div id="myName">
-								<h1>Nicolas</h1>
-								<h1>Di</h1>
-								<h1>Caterina</h1>
-							</div>
+
+			<div class="container">
+				<div id="intro">
+					<div id="sabana">
+						<div id="myName">
+							<h1>Nicolas</h1>
+							<h1>Di</h1>
+							<h1>Caterina</h1>
 						</div>
 					</div>
 				</div>
 			</div>
-			
+
 			<div id="princialCarousel" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#princialCarousel" data-slide-to="0" class="active"></li>
@@ -65,19 +69,21 @@
 
 			<hr/>
 
-			<section id="conceptos">
-				<center>
-					<h1>Conceptos</h1>
-				</center>
-				<ul>
-					<li>Desarrollador Web</li>
-					<p>Es una persona con los conocimientos necesarios para llevar a código lo propuesto por el diseñador web.</p>
-					<li>Diseñador Web</li>
-					<p>Es aquella persona encargada de hacer un diseño para la página web, por lo general no se encarga de la parte de programación, como si el desarrollador web.</p>
-					<li>Competencias transversales</li>
-					<p>Son aquellas competencias que pueden ser aplicadas en cualquier circunstancia.</p>
-				</ul>
-			</section>
+			<div class="container">
+				<section id="conceptos">
+					<center>
+						<h1>Conceptos</h1>
+					</center>
+					<ul>
+						<li>Desarrollador Web</li>
+							<p>Es una persona con los conocimientos necesarios para llevar a código lo propuesto por el diseñador web.</p>
+						<li>Diseñador Web</li>
+							<p>Es aquella persona encargada de hacer un diseño para la página web, por lo general no se encarga de la parte de programación, como si el desarrollador web.</p>
+						<li>Competencias transversales</li>
+							<p>Son aquellas competencias que pueden ser aplicadas en cualquier circunstancia.</p>
+					</ul>
+				</section>
+			</div>
 
 			<hr/>
 
@@ -215,6 +221,5 @@
 			<script src="jquery.js"></script>
 			<script src="bootstrap.min.js"></script>
 			<script src="script.js"></script>
-		</div>
 	</body>
 </html>

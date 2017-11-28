@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	//To show my name with some animation
-	$("#myName").fadeIn(1000);
+	$("#myName").fadeIn(4500);
 	$("#sabana").fadeIn(1000);
 
 	//Function to make smooth scroll
@@ -48,12 +48,8 @@ $(document).ready(function(){
 	function makeDisappear(){
 		if(document.body.scrollTop > 1200 || document.documentElement.scrollTop > 1200){
 			$("#buttonToTop").fadeIn();
-			//This line add a class called "scrolled-nav"
-			$('#principalNav').addClass('scrolled-nav');
 		}else{
 			$("#buttonToTop").fadeOut();
-			//This line remove a class called "scrolled-nav"
-			$('#principalNav').removeClass('scrolled-nav');
 		}
 	}
 });
