@@ -77,24 +77,18 @@ body{
 	color: white;
 	margin-top: 10px;
 	text-align: justify;
-	margin-right: 100px;
-	margin-left: 100px;
 }
 
 #competenciasLaborales{
 	font-family: Unispace;
 	color: white;
 	text-align: justify;
-	margin-right: 100px;
-	margin-left: 100px;
 }
 
 #vocacion{
 	font-family: Unispace;
 	color: white;
 	text-align: justify;
-	margin-right: 100px;
-	margin-left: 100px;
 }
 
 #fotosEntrevistas{
@@ -174,8 +168,6 @@ body{
 	font-family: Unispace;
 	color: white;
 	text-align: justify;
-	margin-right: 100px;
-	margin-left: 100px;
 }
 
 hr{
