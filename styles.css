@@ -133,12 +133,6 @@ body{
 	text-align: justify;
 }
 
-#anunciosCarousel{
-	-webkit-box-shadow: 0 0 15px 2px #f4fb02;
-	-moz-box-shadow: 0 0 15px 5px #f4fb02;
-	box-shadow: 0 0 15px 5px black;
-}
-
 #curriculumVitae{
 	font-family: Unispace;
 	color: white;
@@ -159,11 +153,6 @@ hr{
 
 #abstract{
 	text-align: justify;
-	margin-right: 100px;
-	margin-left: 100px;
-	-webkit-box-shadow: 0 0 15px 2px #00f;
-  -moz-box-shadow: 0 0 15px 2px #00f;
-	box-shadow: 0 0 15px 2px #00f;
 }
 
 /*ANIMACIONES*/
