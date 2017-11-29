@@ -92,23 +92,8 @@ body{
 }
 
 #fotosEntrevistas{
-	margin-top: 10px;
 	font-family: Unispace;
-	color: white;
-	text-align: justify;
-	margin-right: 100px;
-	margin-left: 100px;
-}
-
-#fotoSeba{
-	float: left;
-	height: 128px;
-	margin-left: 100px;
-}
-
-#fotoRita{
-	float: right;
-	margin-right: 100px;
+	color: black;
 }
 
 #entrevistaSebaRita{
@@ -121,8 +106,6 @@ body{
 	color: white;
 	clear: both;
 	text-align: justify;
-	margin-right: 100px;
-	margin-left: 100px;
 }
 
 #fondoEntrevistaSantiFabi{
@@ -134,8 +117,6 @@ body{
 	font-family: Unispace;
 	color: white;
 	text-align: justify;
-	margin-right: 100px;
-	margin-left: 100px;
 }
 
 #conceptos{
