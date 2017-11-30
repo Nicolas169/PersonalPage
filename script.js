@@ -52,4 +52,12 @@ $(document).ready(function(){
 			$("#buttonToTop").fadeOut();
 		}
 	}
+
+	$("#btn_show_infographic").click(function show_infographic(){
+		$("#infographic_image").fadeIn(1000);
+	});
+
+	$("#infographic_image").click(function hide_infographic(){
+		$("#infographic_image").fadeOut(1000);
+	});
 });

@@ -155,6 +155,17 @@ hr{
 	text-align: justify;
 }
 
+#infografia{
+	font-family: Unispace;
+	color: white;
+	text-align: center;
+}
+
+#infographic_image{
+	clear: both;
+	display: none;
+}
+
 /*ANIMACIONES*/
 @font-face{
 	font-family: Unispace;
