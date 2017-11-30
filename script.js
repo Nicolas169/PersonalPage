@@ -1,9 +1,10 @@
 $(document).ready(function(){
-	//To show my name with some animation
+	// To show my name with some animation
 	$("#myName").fadeIn(4500);
 	$("#sabana").fadeIn(1000);
+	$("#me").fadeIn(4500);
 
-	//Function to make smooth scroll
+	// Function to make smooth scroll
 	$('a[href*="#"]')
 	// Remove links that don't actually link to anything
 	.not('[href="#"]')
@@ -36,27 +37,29 @@ $(document).ready(function(){
 		}
 	});
 
-	//Function to scroll top, when it does click on the button "buttonToTop"
+	// Function to scroll top, when it does click on the button "buttonToTop"
 	$("#buttonToTop").click(function topFunction(){
 		$(window).scrollTop(0);
 	});
 
-	//Scrooll event, call function "makeDisappear"
+	// Scrooll event, call function "makeDisappear"
 	window.onscroll = function() {makeDisappear()};
 
-	//Function to make principalNav and buttonToTop disappear
+	// Function to make principalNav and buttonToTop disappear
 	function makeDisappear(){
-		if(document.body.scrollTop > 1200 || document.documentElement.scrollTop > 1200){
+		if(document.body.scrollTop > 200 || document.documentElement.scrollTop > 200){
 			$("#buttonToTop").fadeIn();
 		}else{
 			$("#buttonToTop").fadeOut();
 		}
 	}
 
+	// Function that allows to show infographic image when it's cliked on the button "btn_show_infographic"
 	$("#btn_show_infographic").click(function show_infographic(){
 		$("#infographic_image").fadeIn(1000);
 	});
 
+	// Function that allows to hide infographic image when it's clicked on it
 	$("#infographic_image").click(function hide_infographic(){
 		$("#infographic_image").fadeOut(1000);
 	});
