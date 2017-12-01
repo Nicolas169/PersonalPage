@@ -184,6 +184,10 @@ hr{
 	display: none;
 }
 
+#prueba{
+	list-style-type: none;
+}
+
 /*Animations*/
 @font-face{
 	font-family: Unispace;
