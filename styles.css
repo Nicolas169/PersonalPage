@@ -169,6 +169,10 @@ hr{
 	text-align: justify;
 }
 
+#abstract_spanish{
+	display: none;
+}
+
 #infografia{
 	font-family: Unispace;
 	color: white;
