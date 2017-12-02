@@ -3,6 +3,9 @@ $(document).ready(function(){
 	$("#myName").fadeIn(4500);
 	$("#sabana").fadeIn(1000);
 	$("#me").fadeIn(4500);
+	$("#page_modal").click(function borrar(){
+		$("#text_email").value = "";
+	});
 
 	//Function to make smooth scroll
 	$('a[href*="#"]')
