@@ -169,7 +169,7 @@ hr{
 	text-align: justify;
 }
 
-@media screen and (max-height: 720px){
+@media screen and (max-height: 768px){
 	#abstract{
 		margin-top: 10%;
 	}
