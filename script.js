@@ -3,6 +3,7 @@ $(document).ready(function(){
 	$("#myName").fadeIn(4500);
 	$("#sabana").fadeIn(1000);
 	$("#me").fadeIn(4500);
+
 	$("#page_modal").click(function borrar(){
 		$("#text_email").value = "";
 	});
@@ -39,13 +40,6 @@ $(document).ready(function(){
 				}
 		}
 	});
-
-	/*
-	$("#buttonToTop").click(function() {showImage()});
-
-	function showImage(){
-		alert("hola");
-	}*/
 
 	//Functions to change languegue between enligh and spanish
 	$("#abstract_english").click(function change_languague_english(){
