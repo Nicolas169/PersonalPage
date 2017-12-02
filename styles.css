@@ -86,6 +86,27 @@ body{
 	border-radius: 10px;
 }
 
+#princialCarousel{
+	font-family: Unispace;
+	color: white;
+	text-align: justify;
+}
+
+#body_chester{
+	background-image: url("chester.JPG");
+	background-repeat: no-repeat;
+	background-color: black;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: Unispace;
+	color: white;
+	text-align: justify;
+}
+
+#chester{
+	color: #343a40;
+}
+
 #competenciaHabilidades{
 	font-family: Unispace;
 	color: white;

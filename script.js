@@ -40,6 +40,13 @@ $(document).ready(function(){
 		}
 	});
 
+	/*
+	$("#buttonToTop").click(function() {showImage()});
+
+	function showImage(){
+		alert("hola");
+	}*/
+
 	//Functions to change languegue between enligh and spanish
 	$("#abstract_english").click(function change_languague_english(){
 		$("#abstract_english").fadeOut(0);
